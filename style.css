@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.navbar {
+    background: #333;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #354458;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+footer {
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
