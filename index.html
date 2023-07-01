@@ -1,3 +1,6 @@
+Sure, I can add some more headings and create hyperlinks to each category. I've added "Projects", "Awards", and "Publications" as new headings. I've also added id attributes to each heading, which you can link to using anchor (`<a>`) tags. Here's how the code looks:
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,6 +15,28 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
         <div class="container">
             <a class="navbar-brand" href="#">YOUR NAME</a>
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#awards">Awards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publications">Publications</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -24,14 +49,49 @@
             </div>
 
             <div class="col-md-8">
-                <h2 class="mb-3">Education</h2>
-                <p>EDUCATION</p>
+                <h2 class="mb-3" id="education">Education</h2>
+                <ul>
+                    <li>EDUCATION_1</li>
+                    <li>EDUCATION_2</li>
+                    <!-- Add more as needed -->
+                </ul>
 
-                <h2 class="mt-5 mb-3">Experience</h2>
-                <p>EXPERIENCE</p>
+                <h2 class="mt-5 mb-3" id="experience">Experience</h2>
+                <ul>
+                    <li>EXPERIENCE_1</li>
+                    <li>EXPERIENCE_2</li>
+                    <!-- Add more as needed -->
+                </ul>
 
-                <h2 class="mt-5 mb-3">Skills</h2>
-                <p>SKILLS</p>
+                <h2 class="mt-5 mb-3" id="skills">Skills</h2>
+                <ul>
+                    <li>SKILL_1</li>
+                    <li>SKILL_2</li>
+                    <!-- Add more as needed -->
+                </ul>
+
+                <h2 class="mt-5 mb-3" id="projects">Projects</h2>
+                <ul>
+                    <li>PROJECT_1</li>
+                    <li>PROJECT_2</li>
+                    <!-- Add more as needed -->
+                </ul>
+
+                <h2 class="mt-5 mb-3" id="awards">Awards</h2>
+                <ul>
+                    <li>AWARD_1</li>
+                    <li>AWARD_2
+
+</li>
+                    <!-- Add more as needed -->
+                </ul>
+
+                <h2 class="mt-5 mb-3" id="publications">Publications</h2>
+                <ul>
+                    <li>PUBLICATION_1</li>
+                    <li>PUBLICATION_2</li>
+                    <!-- Add more as needed -->
+                </ul>
             </div>
         </div>
     </div>
@@ -45,3 +105,5 @@
 </body>
 
 </html>
+```
+In this version of the code, each category (Education, Experience, Skills, Projects, Awards, Publications) has its own bullet-pointed list. The navigation bar at the top includes links to each section. When you click on a category in the navbar, the browser will scroll to that category on the page. Please replace all the placeholders like EDUCATION_1, SKILL_1 etc with your actual data.
