@@ -1,38 +1,28 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+header {
+    background: #354458;
+    color: white;
+    padding: 30px;
+    text-align: center;
 }
 
-.navbar {
-    background: #333;
-    color: #ffffff;
-    padding: 15px;
-}
-
-.navbar a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-h1, h2 {
-    color: #354458;
-}
-
-.profile-img {
-    width: 100%;
-    border-radius: 50%;
+section {
+    margin: 15px;
+    padding: 20px;
+    background: white;
 }
 
 footer {
-    background: #333;
-    color: #ffffff;
+    background: #354458;
+    color: white;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     margin-top: 30px;
 }
